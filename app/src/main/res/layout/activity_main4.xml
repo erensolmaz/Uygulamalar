@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="Hesap Makinesi Uygulaması"
+        android:textColor="@color/button"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Sayıları giriniz:"
+        android:textColor="#FFC107"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/sayi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="sayi1"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/sayi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="sayi2"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="İşlemi yapmak için seçiniz"
+        android:textColor="#FF9800"
+        android:textSize="17dp" />
+
+    <RadioGroup
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Hex" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="50dp"
+            android:text="DEC" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="50dp"
+            android:text="OC" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="50dp"
+            android:text="BIN" />
+
+    </RadioGroup>
+
+
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="117dp">
+
+        <Button
+            android:id="@+id/cikar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:onClick="oncikarClick"
+            android:text="-"
+            android:textSize="16dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+
+            android:id="@+id/topla"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:onClick="ontoplaClick"
+            android:text="+"
+            android:textSize="16dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/bol"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:onClick="onbolClick"
+            android:text="/"
+            android:textSize="16dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/carp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="oncarpClick"
+            android:text="x"
+            android:textSize="16dp"
+            app:backgroundTint="@color/button" />
+
+
+        <Button
+            android:id="@+id/mod"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:text="MOD"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/and"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:text="AND"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/or"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:text="OR"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/xor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="300dp"
+            android:text="XOR"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/not"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="60dp"
+            android:text="NOT"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/bs"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="60dp"
+            android:text="LSH"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/ce"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="60dp"
+            android:text="CE"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp"
+            android:text="C"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:text="sin"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/cos"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:text="cos"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/tan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:text="tan"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/exp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="EXP"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+
+        <Button
+            android:id="@+id/log"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:text="log"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/ln"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:text="ln"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/n"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:text="n!"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/dms"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="300dp"
+            android:text="dms"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/MC"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="60dp"
+            android:text="MC"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/M"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="60dp"
+            android:text="M+"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/MR"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="60dp"
+            android:text="MR"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+        <Button
+            android:id="@+id/pi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp"
+            android:text="pi"
+            android:textSize="7dp"
+            app:backgroundTint="@color/button" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="@string/geri_kk"
+        android:textSize="12dp"
+        android:onClick="oncikClick"
+        app:backgroundTint="@color/button" />
+
+    <TextView
+        android:id="@+id/sonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="İşlemin sonucu"
+        android:textColor="@color/button"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Uygulamalar</string>
+    <string name="giri_yap">Giriş Yap</string>
+    <string name="koyu">Koyu</string>
+    <string name="a_k">Açık</string>
+    <string name="tema">Tema:</string>
+    <string name="parola">Parola</string>
+    <string name="ad_n_z_giriniz">Adınızı Giriniz</string>
+    <string name="todo">TODO</string>
+</resources>

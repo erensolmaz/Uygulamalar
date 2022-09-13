@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woa"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <TextView
+        android:id="@+id/profile.txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="70sp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/black"
+        android:text="Eren Solmaz  " />
+
+</FrameLayout>

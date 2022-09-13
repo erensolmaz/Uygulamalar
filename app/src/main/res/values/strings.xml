@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Uygulamalar</string>
+    <string name="giri_yap">Giriş Yap</string>
+    <string name="koyu">Koyu</string>
+    <string name="a_k">Açık</string>
+    <string name="tema">Tema:</string>
+    <string name="parola">Parola</string>
+    <string name="ad_n_z_giriniz">Eposta giriniz</string>
+    <string name="todo">TODO</string>
+    <string name="kredi_taksit">Doviz Hesaplama</string>
+    <string name="hesap_makinesi">Hesap Makinesi</string>
+    <string name="listview">Listview</string>
+    <string name="_1">Euro</string>
+    <string name="_2">Dolar</string>
+    <string name="hesapla">Hesapla</string>
+    <string name="taksit_say_s">Taksit Sayısı</string>
+    <string name="kredi_tutar">Kredi Tutarı</string>
+    <string name="sonu">Sonuç</string>
+    <string name="geri_k">Geri çık</string>
+    <string name="geri_kk">Geri Çık</string>
+    <string name="title_activity_main6">MainActivity</string>
+    <string name="title_home">Anasayfa</string>
+    <string name="title_dashboard">Login</string>
+    <string name="title_notifications">Galeri</string>
+    <string name="title_profile">Profile</string>
+</resources>
