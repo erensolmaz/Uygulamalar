@@ -14,6 +14,8 @@
 - Pop-up messages
 
 ## Login
+- Giriş id eren@hotmail.com
+- Şifre solmaz
 
 ![login](https://user-images.githubusercontent.com/40443383/189937634-7e1004cc-2eb0-4f64-865a-3f2f0d3fe9f1.png)
 
@@ -29,7 +31,7 @@
 
 ![5](https://user-images.githubusercontent.com/40443383/189937600-28114f54-c827-488f-b7c0-5e5f0ef0bf04.png)
 
-## Listview
+## Listview (Kayıtlı hesapların kullanıcı adlarını ve şifrelerini veren listview)
 
 ![6](https://user-images.githubusercontent.com/40443383/189937602-2fea67f9-b0ee-4904-8a7f-73ad9df5582d.png)
 
