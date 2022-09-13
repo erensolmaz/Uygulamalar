@@ -6,7 +6,7 @@
 ### Features
 - Login
 - Calculator
-- Currency Calculator
+- Currency Converter
 - Listview
 - Dark and light themes
 - Galery
@@ -23,7 +23,7 @@
 
 ![anasayfa](https://user-images.githubusercontent.com/40443383/189937589-698e49e7-7f7b-4ff5-b24a-626f813c3171.png)
 
-## Currency Calculator
+## Currency Converter
 
 ![3](https://user-images.githubusercontent.com/40443383/189937596-f7c73803-ae18-43e0-8426-f44e5c242a26.png)
 
