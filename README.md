@@ -14,8 +14,8 @@
 - Pop-up messages
 
 ## Login
-- Giriş id eren@hotmail.com
-- Şifre solmaz
+- Login id: eren@hotmail.com
+- Password: solmaz
 
 ![login](https://user-images.githubusercontent.com/40443383/189937634-7e1004cc-2eb0-4f64-865a-3f2f0d3fe9f1.png)
 
