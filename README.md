@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📱 Çoklu Uygulamalar (Multi-App)
+# 📱 Multi-App
 
 **Many small apps in one Java Android application**
 
@@ -44,7 +44,7 @@
 
 ![5](https://user-images.githubusercontent.com/40443383/189937600-28114f54-c827-488f-b7c0-5e5f0ef0bf04.png)
 
-## Listview (Kayıtlı hesapların kullanıcı adlarını ve şifrelerini veren listview)
+## Listview (lists the usernames of registered accounts)
 
 ![6](https://user-images.githubusercontent.com/40443383/189937602-2fea67f9-b0ee-4904-8a7f-73ad9df5582d.png)
 
