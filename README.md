@@ -1,21 +1,34 @@
-# Çoklu Uygulamalar
+<div align="center">
 
-## Description
-> Birçok uygulamanın bir arada olduğu java ile yazılımş mobil app.
+# 📱 Çoklu Uygulamalar (Multi-App)
 
-### Features
-- Login
+**Many small apps in one Java Android application**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=black)
+
+</div>
+
+---
+
+## ✨ Features
+
+- Login screen
 - Calculator
-- Currency Converter
-- Listview
-- Dark and light themes
-- Galery
-- Bottom navigation
+- Currency converter
+- ListView of places
+- Photo gallery
+- Bottom navigation & profile page
+- Dark & light themes
 - Pop-up messages
 
+## 🚀 Getting Started
+
+1. Open the project in **Android Studio**.
+2. Sync Gradle and run on an emulator or device.
+
+## 📸 Screenshots
+
 ## Login
-- Login id: eren@hotmail.com
-- Password: solmaz
 
 ![login](https://user-images.githubusercontent.com/40443383/189937634-7e1004cc-2eb0-4f64-865a-3f2f0d3fe9f1.png)
 
@@ -51,3 +64,10 @@
 
 ![11111](https://user-images.githubusercontent.com/40443383/189937625-dbdc11b2-bd18-4cbe-abd2-1d6c8b718a54.png)
 
+---
+
+<div align="center">
+
+Made by [Eren Solmaz](https://github.com/erensolmaz) · [LinkedIn](https://linkedin.com/in/noiren)
+
+</div>
